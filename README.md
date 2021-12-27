@@ -1,1 +1,1 @@
-# Debian-apps-script
+# Debian apps installer script
