@@ -6,7 +6,7 @@ sudo apt update
 #Programas do repositório
 
 echo "installing nmap..."
-sudo apt instal nmap -y
+sudo apt install nmap -y
 
 echo "installing Keepassxc..."
 sudo apt install keepassxc -y
@@ -50,7 +50,7 @@ echo "installing brave browser..."
 mkdir /home/$USER/Downloads/programs/brave
 cd /home/$USER/Downloads/programs/brave
 
-echo "installing brave browser..."
+
 sudo apt install apt-transport-https curl
 
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
