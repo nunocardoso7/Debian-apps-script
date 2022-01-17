@@ -1,9 +1,14 @@
 #!/bin/bash
 
+
+
+echo "Installing Programs from apt..."
+
+
 echo "updating..."
 sudo apt update
 
-#Programas do repositório
+# Programas do repositório
 
 echo "installing nmap..."
 sudo apt install nmap -y
@@ -29,10 +34,34 @@ sudo apt install ranger -y
 echo "installing dconf-editor..."
 sudo apt install dconf-editor -y
 
+echo "installing neofetch..."
+sudo apt install neofetch -y
+
+echo "installing screenfetch..."
+sudo apt install screenfetch -y
+
+
+# Snaps
+echo "Installing Snaps..."
+
 echo "installing bashtop..."
 sudo snap install bashtop -y
 
-#Programas Externos
+echo "Installing Visual Studio Code..."
+sudo snap install code --classic
+
+
+
+
+
+
+
+
+
+
+
+
+# Programas Externos
 
 mkdir /home/$USER/Downloads/programs
 
@@ -44,7 +73,14 @@ mkdir /home/$USER/Downloads/programs
 #sudo dpkg -i *.deb
 
 
-#Programas mais especificos
+
+
+
+
+
+echo "Installing Specific Programs..."
+
+# Programas mais especificos
 
 echo "installing brave browser..."
 mkdir /home/$USER/Downloads/programs/brave
