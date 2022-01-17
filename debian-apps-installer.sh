@@ -1,8 +1,22 @@
 #!/bin/bash
 
 
+# Variables for colors(text)
+RED="\033[31m"
+Green="\033[0;32m"
+Yellow="\033[0;33m"
+Cyan="\033[0;36m"
+NC="\033[0m"
 
-echo "Installing Programs from apt..."
+
+
+echo -e "${Green}The script will install will start the instalation soon... ${NC}"
+
+sleep 3
+
+
+
+echo -e "${Cyan}Installing Programs from apt...${NC}"
 
 
 echo "updating..."
@@ -42,7 +56,7 @@ sudo apt install screenfetch -y
 
 
 # Snaps
-echo "Installing Snaps..."
+echo -e "${Cyan}Installing Snaps...${NC}"
 
 echo "installing bashtop..."
 sudo snap install bashtop -y
@@ -78,7 +92,7 @@ mkdir /home/$USER/Downloads/programs
 
 
 
-echo "Installing Specific Programs..."
+echo -e "${Cyan}Installing Specific Programs...${NC}"
 
 # Programas mais especificos
 
@@ -129,4 +143,7 @@ sudo apt update
 
 sudo apt install element-desktop -y
 
-echo "installation complete!"
+
+
+echo -e "${Green}installation complete!${NC}"
+
