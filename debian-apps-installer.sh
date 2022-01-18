@@ -128,3 +128,4 @@ sudo apt install element-desktop -y
 
 
 echo -e "${Green}installation complete!${NC}"
+echo " "
