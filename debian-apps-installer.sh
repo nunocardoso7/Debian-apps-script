@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Variables for colors(text)
 RED="\033[31m"
 Green="\033[0;32m"
@@ -9,11 +8,9 @@ Cyan="\033[0;36m"
 NC="\033[0m"
 
 
-
 echo -e "${Green}The script will install will start the instalation soon... ${NC}"
 
 sleep 3
-
 
 
 echo -e "${Cyan}Installing Programs from apt...${NC}"
@@ -66,35 +63,20 @@ sudo snap install code --classic
 
 
 
-
-
-
-
-
-
-
-
-
 # Programas Externos
 
 mkdir /home/$USER/Downloads/programs
 
 
 
-#wget -c
+#wget -c {link}
 
 
 #sudo dpkg -i *.deb
 
 
-
-
-
-
-
-echo -e "${Cyan}Installing Specific Programs...${NC}"
-
 # Programas mais especificos
+echo -e "${Cyan}Installing Specific Programs...${NC}"
 
 echo "installing brave browser..."
 mkdir /home/$USER/Downloads/programs/brave
@@ -146,4 +128,3 @@ sudo apt install element-desktop -y
 
 
 echo -e "${Green}installation complete!${NC}"
-
