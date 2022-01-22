@@ -61,17 +61,24 @@ echo "installing bashtop..."
 sudo snap install bashtop -y
 echo = ""
 echo "Installing Visual Studio Code..."
-sudo snap install code --classic
+sudo snap install code --classic -y
+echo = ""
+echo "Installing Icedrive..."
+sudo snap install icedrive -y
 #
 # Programas Externos
 #
 mkdir /home/$USER/Downloads/programs
+cd /home/$USER/Downloads/programs
 #
 #wget -c {link}
 #
+# Portmaster
+wget -c https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.deb
 #
 #
-#sudo dpkg -i *.deb
+#
+sudo dpkg -i *.deb
 #
 # Programas mais especificos
 echo = ""
