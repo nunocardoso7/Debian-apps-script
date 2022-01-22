@@ -48,6 +48,9 @@ sudo apt install neofetch -y
 echo = ""
 echo "installing screenfetch..."
 sudo apt install screenfetch -y
+echo = ""
+echo "installing Notepadqq..."
+sudo apt install notepadqq -y
 #
 #
 # Snaps
