@@ -51,6 +51,15 @@ sudo apt install screenfetch -y
 echo = ""
 echo "installing Notepadqq..."
 sudo apt install notepadqq -y
+echo = ""
+echo "installing Ruust-Lang..."
+sudo curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh -y
+echo = ""
+echo "installing gcc..."
+sudo apt install gcc -y
+echo = ""
+echo "installing mingw-w64..."
+sudo apt install mingw-w64 -y
 
 
 # Snaps
