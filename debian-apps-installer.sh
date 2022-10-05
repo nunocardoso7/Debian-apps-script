@@ -58,6 +58,9 @@ echo = ""
 echo "installing gcc..."
 sudo apt install gcc -y
 echo = ""
+echo "installing build-essential..."
+sudo apt install build-essential -y
+echo = ""
 echo "installing mingw-w64..."
 sudo apt install mingw-w64 -y
 
